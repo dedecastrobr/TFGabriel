@@ -20,7 +20,7 @@ public class Menu {
 
 	public void show() {
 
-		System.out.println(nomeMenu);
+		System.out.println("Este é o "+nomeMenu);
 
 		for (String string : opsMenu) {
 			System.out.println(opsMenu.indexOf(string) + " - " + string);
